@@ -533,6 +533,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mui/icons-material@npm:latest":
+  version: 5.6.2
+  resolution: "@mui/icons-material@npm:5.6.2"
+  dependencies:
+    "@babel/runtime": ^7.17.2
+  peerDependencies:
+    "@mui/material": ^5.0.0
+    "@types/react": ^17.0.0 || ^18.0.0
+    react: ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: eef561fc68c01f103a8edde897b95628d179f4b79bf59a8cfa005db3dde1c473b13a803534018e901d5df287820bf6d62097dcad1c10db531ef237b407cfb51e
+  languageName: node
+  linkType: hard
+
 "@mui/material@npm:latest":
   version: 5.6.4
   resolution: "@mui/material@npm:5.6.4"
@@ -2411,31 +2427,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-rollup-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-rollup-template@workspace:."
-  dependencies:
-    "@babel/core": latest
-    "@emotion/react": latest
-    "@emotion/styled": latest
-    "@mui/material": latest
-    "@testing-library/jest-dom": latest
-    "@testing-library/react": latest
-    "@types/jest": latest
-    "@types/node": latest
-    "@types/react": latest
-    "@types/react-dom": latest
-    "@vitejs/plugin-react": latest
-    axios: latest
-    prettier: latest
-    react: latest
-    react-dom: latest
-    react-router-dom: latest
-    typescript: latest
-    vite: latest
-  languageName: unknown
-  linkType: soft
-
 "react-router-dom@npm:latest":
   version: 6.3.0
   resolution: "react-router-dom@npm:6.3.0"
@@ -2474,6 +2465,32 @@ __metadata:
   checksum: b67bf5b3e86dbab72d658b9a52a3589e5960583ab28c7c66272427d8fe30d4c7de422d5046ae96bd2683cdf80cc3264b2516f5ce80cae1dbe6cf3ca6dda392c5
   languageName: node
   linkType: hard
+
+"react-vite-template@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "react-vite-template@workspace:."
+  dependencies:
+    "@babel/core": latest
+    "@emotion/react": latest
+    "@emotion/styled": latest
+    "@mui/icons-material": latest
+    "@mui/material": latest
+    "@testing-library/jest-dom": latest
+    "@testing-library/react": latest
+    "@types/jest": latest
+    "@types/node": latest
+    "@types/react": latest
+    "@types/react-dom": latest
+    "@vitejs/plugin-react": latest
+    axios: latest
+    prettier: latest
+    react: latest
+    react-dom: latest
+    react-router-dom: latest
+    typescript: latest
+    vite: latest
+  languageName: unknown
+  linkType: soft
 
 "react@npm:latest":
   version: 18.1.0

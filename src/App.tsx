@@ -1,5 +1,5 @@
-import { Container } from '@mui/material';
+import SignIn from '@/components/SignIn';
 
 export default function App() {
-  return <Container maxWidth="sm"></Container>;
+  return <SignIn />;
 }
