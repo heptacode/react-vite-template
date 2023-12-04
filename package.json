@@ -8,22 +8,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest",
-    "axios": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-router-dom": "latest"
   },
   "devDependencies": {
-    "@babel/core": "latest",
     "@types/node": "latest",
-    "@types/prettier": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@vitejs/plugin-react": "latest",
     "prettier": "latest",
-    "ts-node": "latest",
     "typescript": "latest",
     "vite": "latest"
   }
