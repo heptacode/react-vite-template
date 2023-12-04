@@ -10,8 +10,6 @@
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
-    "@mui/icons-material": "latest",
-    "@mui/material": "latest",
     "axios": "latest",
     "react": "latest",
     "react-dom": "latest",
