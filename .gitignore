@@ -1,14 +1,21 @@
 # Logs
 logs
 *.log
+pnpm-debug.log*
 
-# Project
+node_modules
 dist
+dist-ssr
 .env
 *.local
 
-# MacOS
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-
-# Packages
-node_modules
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
